@@ -1,0 +1,71 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+#notebook-container {
+  width: 70%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+img {
+  text-align:center;
+}
+.anchor-link{
+  font-size: 0;
+}
+h2 {
+  border-bottom: 1px solid #555555;
+}
+
+table{
+  border: solid 1px #DDEEEE;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font: normal 13px Arial, sans-serif;
+}
+table thead th {
+  background-color: #DDEFEF;
+  border: solid 1px #DDEEEE;
+  color: #336B6B;
+  padding: 10px;
+  text-align: left;
+  text-shadow: 1px 1px 1px #fff;
+}
+table tbody td {
+  border: solid 1px #DDEEEE;
+  color: #333;
+  padding: 10px;
+  text-shadow: 1px 1px 1px #fff;
+}
+img {
+  width:100%;
+  filter: drop-shadow(7px 5px 2px #d4d4d4);
+}
+.logo-container { 
+  width:150px;
+}
+
+.output_text {
+  background-color:rgb(250, 250, 250);
+  text-align:left;
+  padding-left:0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 18px;
+}
+
+.title {
+  text-align:center;
+  vertical-align: middle;
+}
+
+.Row {
+  display: table;
+  width: 100%; /*Optional*/
+  table-layout: fixed; /*Optional*/
+  border-spacing: 10px; /*Optional*/
+}
+.Column {
+  display: table-cell;
+
+}

@@ -69,3 +69,9 @@ img {
   display: table-cell;
 
 }
+.output_stderr {
+  display: none
+}
+.output_error {
+  display: none
+}

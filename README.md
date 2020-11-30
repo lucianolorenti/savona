@@ -2,13 +2,14 @@
 Convert jupyter notebook to something nice
 
 ## Mode of usage
-* `python bin/convert_notebook.py  --input some_folder/EDA.ipynb  --title "Mi good title"`
+* `python bin/convert_notebook.py html --input some_folder/EDA.ipynb  --title "Mi good title"`
+* `python bin/convert_notebook.py docx --input some_folder/EDA.ipynb  --title "Mi good title"`
 
 ## Custom template
 For creating a custom template just copy the basic template from the package folder and modify it, then you can use
 
 ```python
-python bin/convert_notebook.py  --input some_folder/EDA.ipynb  [--title "Mi good title"] [--theme /home/user/custom_template/]
+python bin/convert_notebook.py html --input some_folder/EDA.ipynb  [--title "Mi good title"] [--theme /home/user/custom_template/]
 ```
 
 ## 

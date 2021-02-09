@@ -12,8 +12,8 @@ logger = logging.getLogger(__name__)
 
 class Exporter:
     def _write_output(self, output_path: Path, filename: str, body):
-        output_path = (output_path.parent /
-                       (output_path.stem + self.extension))
+        output_path = (output_path /
+                       (filename + self.extension))
         with open(output_path, 'w') as file:
             file.write(body)
 

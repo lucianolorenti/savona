@@ -44,7 +44,7 @@ class HTMLExporter(Exporter):
             self.config['title'] = ''
 
     @property
-    def _extension(self):
+    def extension(self):
         return '.html'
 
     def export(self, notebook_path, output_path):
